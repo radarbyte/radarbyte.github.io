@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RadarByte · Preço de bug no grupo</title>
+<meta name="description" content="Ofertas de PC, hardware e games todo dia. Entre no grupo do RadarByte.">
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2326952121483092');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2326952121483092&ev=PageView&noscript=1"/></noscript>
+<!-- Fim Meta Pixel -->
+<style>
+  :root { --bg:#0c0d12; --card:#181a22; --line:#2c2f3a; --yel:#ffd400; --txt:#f5f5f5; --gray:#9a9fac; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--txt);
+    background: radial-gradient(circle at 85% 5%, rgba(255,212,0,.18), transparent 45%),
+                radial-gradient(circle at 10% 100%, rgba(90,60,255,.18), transparent 45%), var(--bg);
+    padding: 24px;
+  }
+  main { width: 100%; max-width: 420px; text-align: center; }
+  .logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 20px; margin-bottom: 28px; }
+  .logo span { width: 40px; height: 40px; border-radius: 50%; background: var(--yel); color: var(--bg);
+               display: grid; place-items: center; font-size: 15px; font-weight: 900; }
+  .tag { display: inline-block; background: #e61e2d; color: #fff; font-weight: 900; font-size: 14px;
+         letter-spacing: .5px; padding: 6px 16px; border-radius: 99px; margin-bottom: 16px; }
+  h1 { font-size: 38px; line-height: 1.08; font-weight: 900; margin-bottom: 14px; }
+  h1 em { font-style: normal; color: var(--yel); }
+  p.sub { color: var(--gray); font-size: 17px; line-height: 1.45; margin-bottom: 30px; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%;
+         padding: 18px; border-radius: 16px; font-size: 18px; font-weight: 800; text-decoration: none;
+         margin-bottom: 14px; transition: transform .1s; }
+  .btn:active { transform: scale(.97); }
+  .wa { background: #25d366; color: #06210f; animation: pulse 1.8s infinite; }
+  .tg { background: #229ed9; color: #fff; }
+  @keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(37,211,102,.5); } 50% { box-shadow: 0 0 0 10px rgba(37,211,102,0); } }
+  ul { list-style: none; margin: 26px 0 0; border-top: 1px solid var(--line); padding-top: 20px; color: var(--gray); font-size: 15px; }
+  li { margin: 8px 0; }
+  li b { color: var(--txt); }
+  small { display: block; margin-top: 30px; color: #5d6170; font-size: 11px; line-height: 1.4; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo"><span>RB</span>RadarByte</div>
+  <div><div class="tag">PREÇO DE BUG</div></div>
+  <h1>As ofertas de PC chegam <em>primeiro no grupo</em></h1>
+  <p class="sub">Placa de vídeo, processador, monitor e periféricos com desconto de verdade, todo dia. É grátis.</p>
+
+  <a class="btn wa" href="https://chat.whatsapp.com/IeDXumcYkS8BVJvfqYj50u" data-dest="whatsapp">Entrar no grupo do WhatsApp</a>
+  <a class="btn tg" href="https://t.me/RadarByte" data-dest="telegram">Entrar no canal do Telegram</a>
+
+  <ul>
+    <li><b>Só PC, hardware e games</b></li>
+    <li>Ofertas conferidas antes de postar</li>
+    <li>Sai quando quiser</li>
+  </ul>
+  <small>Este site usa o Meta Pixel para medir os resultados dos anúncios.</small>
+</main>
+<script>
+  document.querySelectorAll('.btn').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      var url = a.href;
+      try { fbq('track', 'Lead', { content_name: a.dataset.dest }); } catch (err) {}
+      setTimeout(function () { window.location.href = url; }, 350);
+    });
+  });
+</script>
+</body>
+</html>
